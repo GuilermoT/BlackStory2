@@ -1,0 +1,9 @@
+## 🚫 Restricciones Importantes
+
+### NO HACER:
+
+❌ Ejecutar la aplicación (el usuario hace las pruebas) ❌ Instalar librerías manualmente con pip ❌ Comitear el archivo `.env` ❌ Usar print() para logs importantes (usar logging) ❌ Hardcodear API keys en el código
+
+### SÍ HACER:
+
+✅ Usar `uv` para todas las dependencias ✅ Comentar métodos y clases claramente ✅ Manejar todos los errores posibles ✅ Crear código modular y reutilizable ✅ Seguir PEP 8 para estilo de código ✅ Usar type hints en funciones ✅ Crear tests básicos (opcional pero recomendado)
