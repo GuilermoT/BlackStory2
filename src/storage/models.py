@@ -25,6 +25,7 @@ class Conversation:
     model2_name: str
     model2_provider: str
     max_questions: int
+    full_solution: str = "" # Added full_solution field
     start_time: datetime = field(default_factory=datetime.now)
     messages: List[Message] = field(default_factory=list)
     result: Optional[str] = None

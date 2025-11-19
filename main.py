@@ -28,7 +28,7 @@ def get_provider(provider_name: str, model_name: str):
 @click.option('-p1', '--provider1', required=True, type=click.Choice(['gemini', 'ollama']), help='Provider of the model 1')
 @click.option('-p2', '--provider2', required=True, type=click.Choice(['gemini', 'ollama']), help='Provider of the model 2')
 @click.option('--save-format', type=click.Choice(['json', 'txt', 'md']), default='md', help='Format of the saved conversation')
-@click.option('--max-questions', type=int, default=20, help='Maximum number of questions allowed')
+@click.option('--max-questions', type=int, default=10, help='Maximum number of questions allowed')
 @click.option('--no-pause', is_flag=True, help='Disables the pause between messages')
 @click.option('--output-dir', default='./conversations', help='Folder where conversations will be saved')
 def main(model1, model2, provider1, provider2, save_format, max_questions, no_pause, output_dir):

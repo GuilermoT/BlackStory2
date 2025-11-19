@@ -65,3 +65,292 @@
 2025-11-17 19:06:59,371 - root - INFO - Ollama provider initialized with model: gemma3 at http://10.10.83.193:11434
 2025-11-17 19:06:59,372 - root - INFO - Starting a new game.
 2025-11-17 19:07:46,395 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:08:35,362 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:08:39,396 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:10:15,221 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:10:56,102 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:11:02,167 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:11:06,614 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:11:10,149 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:11:55,683 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:13:33,754 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:13:38,667 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:13:42,653 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:13:58,753 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:14:17,295 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:15:17,106 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:15:19,196 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:15:19,847 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:15:38,053 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:16:27,816 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:16:32,249 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:17:12,765 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:17:19,078 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:17:21,209 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:17:24,673 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:17:27,966 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:17:35,789 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:17:41,366 - root - WARNING - Game interrupted by user.
+2025-11-17 19:19:35,979 - root - INFO - Starting Black Stories AI game
+2025-11-17 19:19:35,992 - root - INFO - Ollama provider initialized with model: gemma3 at http://10.10.83.193:11434
+2025-11-17 19:19:36,005 - root - INFO - Ollama provider initialized with model: gemma3 at http://10.10.83.193:11434
+2025-11-17 19:19:36,006 - root - INFO - Starting a new game.
+2025-11-17 19:20:20,158 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:20:20,159 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-17 19:21:08,094 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:21:10,932 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:21:14,467 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:21:29,593 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:21:34,503 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:21:40,242 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:21:47,430 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:21:49,627 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:21:53,014 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:21:58,123 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:22:02,650 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:22:05,971 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:22:13,910 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:23:15,044 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:23:17,632 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:23:18,567 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:23:22,357 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:23:40,056 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:24:45,294 - root - WARNING - Game interrupted by user.
+2025-11-17 19:25:38,339 - root - INFO - Starting Black Stories AI game
+2025-11-17 19:25:38,352 - root - INFO - Ollama provider initialized with model: qwen2.5:3b at http://10.10.83.193:11434
+2025-11-17 19:25:38,366 - root - INFO - Ollama provider initialized with model: qwen2.5:3b at http://10.10.83.193:11434
+2025-11-17 19:25:38,366 - root - INFO - Starting a new game.
+2025-11-17 19:25:59,411 - root - ERROR - Error generating response from Ollama: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2025-11-17 19:25:59,411 - root - ERROR - Is Ollama running? You can start it with 'ollama serve'
+2025-11-17 19:25:59,412 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-17 19:26:39,953 - root - WARNING - Game interrupted by user.
+2025-11-17 19:26:53,355 - root - INFO - Starting Black Stories AI game
+2025-11-17 19:26:53,369 - root - INFO - Ollama provider initialized with model: qwen2.5:3b at http://10.10.83.193:11434
+2025-11-17 19:26:53,383 - root - INFO - Ollama provider initialized with model: qwen2.5:3b at http://10.10.83.193:11434
+2025-11-17 19:26:53,383 - root - INFO - Starting a new game.
+2025-11-17 19:27:04,665 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:27:04,666 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-17 19:27:27,313 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:27:31,569 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:27:38,577 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:27:54,141 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:27:59,403 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:28:10,816 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:28:18,294 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:28:22,761 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:28:33,539 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:28:40,348 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:28:46,807 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:28:48,647 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:28:53,177 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:02,512 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:07,645 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:09,314 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:15,232 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:17,568 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:21,763 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:25,595 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:29,531 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:30,933 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:34,431 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:35,748 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:41,414 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:43,271 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:47,867 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:49,904 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:29:59,093 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:33:18,126 - root - WARNING - Game interrupted by user.
+2025-11-17 19:33:22,944 - root - INFO - Starting Black Stories AI game
+2025-11-17 19:33:22,957 - root - INFO - Ollama provider initialized with model: qwen2.5:3b at http://10.10.83.193:11434
+2025-11-17 19:33:22,970 - root - INFO - Ollama provider initialized with model: qwen2.5:3b at http://10.10.83.193:11434
+2025-11-17 19:33:22,971 - root - INFO - Starting a new game.
+2025-11-17 19:33:39,676 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:33:39,677 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-17 19:33:56,788 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:34:11,540 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:34:23,019 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:34:30,006 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:34:39,866 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:34:49,966 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:35:57,690 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:36:05,109 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:36:13,634 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:36:16,444 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:36:21,152 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:36:23,743 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:36:33,635 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:36:43,264 - httpx - INFO - HTTP Request: POST http://10.10.83.193:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:38:17,795 - root - WARNING - Game interrupted by user.
+2025-11-17 19:39:35,553 - root - INFO - Starting Black Stories AI game
+2025-11-17 19:39:35,553 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-17 19:39:35,553 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-17 19:39:35,554 - root - INFO - Starting a new game.
+2025-11-17 19:40:03,170 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-17 19:45:44,938 - root - WARNING - Game interrupted by user.
+2025-11-17 19:49:31,541 - root - INFO - Starting Black Stories AI game
+2025-11-17 19:49:31,554 - root - INFO - Ollama provider initialized with model: deepseek-r1 at http://10.10.83.193:11434
+2025-11-17 19:49:31,567 - root - INFO - Ollama provider initialized with model: deepseek-r1 at http://10.10.83.193:11434
+2025-11-17 19:49:31,568 - root - INFO - Starting a new game.
+2025-11-17 19:49:52,612 - root - ERROR - Error generating response from Ollama: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2025-11-17 19:49:52,624 - root - ERROR - Is Ollama running? You can start it with 'ollama serve'
+2025-11-17 19:49:52,626 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-17 19:49:58,935 - root - WARNING - Game interrupted by user.
+2025-11-17 19:50:41,258 - root - INFO - Starting Black Stories AI game
+2025-11-17 19:50:41,273 - root - INFO - Ollama provider initialized with model: deepseek-r1 at http://localhost:11434
+2025-11-17 19:50:41,290 - root - INFO - Ollama provider initialized with model: deepseek-r1 at http://localhost:11434
+2025-11-17 19:50:41,291 - root - INFO - Starting a new game.
+2025-11-17 19:51:46,893 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:55:10,181 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 19:58:13,707 - root - WARNING - Game interrupted by user.
+2025-11-17 19:59:41,917 - root - INFO - Starting Black Stories AI game
+2025-11-17 19:59:41,931 - root - INFO - Ollama provider initialized with model: gemma at http://localhost:11434
+2025-11-17 19:59:41,944 - root - INFO - Ollama provider initialized with model: gemma at http://localhost:11434
+2025-11-17 19:59:41,944 - root - INFO - Starting a new game.
+2025-11-17 20:00:13,738 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:00:13,740 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-17 20:00:52,993 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:01:07,903 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:01:16,545 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:01:23,220 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:01:32,559 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:01:40,806 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:01:49,700 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:01:54,866 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:02:03,199 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:02:09,090 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:02:18,435 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:02:24,619 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:02:35,070 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:02:42,134 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:02:52,424 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:03:01,124 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:03:11,475 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:03:19,279 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:03:28,379 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:03:37,959 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:03:47,706 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:03:54,916 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:04:04,500 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:04:10,035 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:04:21,782 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:04:33,267 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:04:44,191 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:04:52,336 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:05:04,251 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:05:12,595 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:05:22,542 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:05:33,436 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:05:43,412 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:05:51,459 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:06:00,898 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:06:06,354 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:06:15,352 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:06:21,549 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:06:32,127 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:06:39,177 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:06:40,806 - root - INFO - Game ended due to reaching max questions.
+2025-11-17 20:07:30,541 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:07:30,545 - root - INFO - Conversation saved to ./conversations\blackstory_20251117_200730.md
+2025-11-17 20:16:14,950 - root - INFO - Starting Black Stories AI game
+2025-11-17 20:16:14,963 - root - INFO - Ollama provider initialized with model: gemma at http://localhost:11434
+2025-11-17 20:16:14,976 - root - INFO - Ollama provider initialized with model: gemma at http://localhost:11434
+2025-11-17 20:16:14,976 - root - INFO - Starting a new game.
+2025-11-17 20:16:55,209 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:16:55,219 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-17 20:17:13,017 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:17:22,994 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:31:04,208 - root - WARNING - Game interrupted by user.
+2025-11-17 20:31:12,562 - root - INFO - Starting Black Stories AI game
+2025-11-17 20:31:12,577 - root - INFO - Ollama provider initialized with model: gemma at http://localhost:11434
+2025-11-17 20:31:12,590 - root - INFO - Ollama provider initialized with model: gemma at http://localhost:11434
+2025-11-17 20:31:12,590 - root - INFO - Starting a new game.
+2025-11-17 20:31:44,951 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:31:44,953 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-17 20:31:56,083 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:32:13,302 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:32:23,043 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:32:27,820 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:32:39,466 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:32:46,081 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:32:58,176 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:33:03,410 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:33:13,437 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:33:19,995 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:33:29,474 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:33:35,769 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:33:49,747 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:33:52,987 - root - WARNING - Game interrupted by user.
+2025-11-17 20:34:30,483 - root - INFO - Starting Black Stories AI game
+2025-11-17 20:34:30,496 - root - INFO - Ollama provider initialized with model: gemma3:1b at http://localhost:11434
+2025-11-17 20:34:30,509 - root - INFO - Ollama provider initialized with model: gemma3:1b at http://localhost:11434
+2025-11-17 20:34:30,509 - root - INFO - Starting a new game.
+2025-11-17 20:34:41,523 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:34:46,455 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:34:50,246 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:34:53,561 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:35:01,676 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:35:03,492 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:35:04,724 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:35:06,535 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:35:07,942 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:35:10,300 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:35:13,306 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-17 20:35:17,607 - root - WARNING - Game interrupted by user.
+2025-11-17 20:35:32,630 - root - INFO - Starting Black Stories AI game
+2025-11-17 20:35:32,630 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-17 20:35:32,630 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-17 20:35:32,631 - root - INFO - Starting a new game.
+2025-11-17 20:49:31,639 - root - WARNING - Game interrupted by user.
+2025-11-18 18:50:55,791 - root - INFO - Starting Black Stories AI game
+2025-11-18 18:50:55,805 - root - INFO - Ollama provider initialized with model: gemma at http://localhost:11434
+2025-11-18 18:50:55,819 - root - INFO - Ollama provider initialized with model: gemma at http://localhost:11434
+2025-11-18 18:50:55,819 - root - INFO - Starting a new game.
+2025-11-18 18:51:33,625 - root - WARNING - Game interrupted by user.
+2025-11-18 18:52:31,221 - root - INFO - Starting Black Stories AI game
+2025-11-18 18:52:31,224 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-18 18:52:31,224 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-18 18:52:31,226 - root - INFO - Starting a new game.
+2025-11-18 18:52:41,343 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-18 19:18:04,588 - root - WARNING - Game interrupted by user.
+2025-11-18 19:18:15,222 - root - INFO - Starting Black Stories AI game
+2025-11-18 19:18:15,222 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-18 19:18:15,222 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-18 19:18:15,223 - root - INFO - Starting a new game.
+2025-11-18 19:18:26,023 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-18 19:24:27,977 - root - WARNING - Game interrupted by user.
+2025-11-18 19:25:02,469 - root - INFO - Starting Black Stories AI game
+2025-11-18 19:25:02,469 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-18 19:25:02,483 - root - INFO - Ollama provider initialized with model: qwen3 at http://localhost:11434
+2025-11-18 19:25:02,483 - root - INFO - Starting a new game.
+2025-11-18 19:25:17,941 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-19 18:46:26,872 - root - WARNING - Game interrupted by user.
+2025-11-19 19:59:08,939 - root - INFO - Starting Black Stories AI game
+2025-11-19 19:59:08,939 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 19:59:08,939 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 19:59:08,940 - root - INFO - Starting a new game.
+2025-11-19 19:59:27,182 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-19 20:03:23,414 - root - WARNING - Game interrupted by user.
+2025-11-19 20:04:46,706 - root - INFO - Starting Black Stories AI game
+2025-11-19 20:04:46,707 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 20:04:46,707 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 20:04:46,707 - root - INFO - Starting a new game.
+2025-11-19 20:04:57,643 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-19 20:05:59,650 - root - WARNING - Game interrupted by user.
+2025-11-19 20:06:50,598 - root - INFO - Starting Black Stories AI game
+2025-11-19 20:06:50,598 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 20:06:50,598 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 20:06:50,598 - root - INFO - Starting a new game.
+2025-11-19 20:13:53,569 - root - INFO - Game ended due to reaching max questions.
+2025-11-19 20:14:16,122 - root - INFO - Conversation saved to ./conversations\blackstory_20251119_201416.md
+2025-11-19 20:22:20,367 - root - INFO - Starting Black Stories AI game
+2025-11-19 20:22:20,367 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 20:22:20,367 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 20:22:20,368 - root - INFO - Starting a new game.
+2025-11-19 20:31:30,352 - root - INFO - Game ended due to reaching max questions.
+2025-11-19 20:31:49,274 - root - INFO - Conversation saved to ./conversations\blackstory_20251119_203149.md
+2025-11-19 20:39:02,520 - root - INFO - Starting Black Stories AI game
+2025-11-19 20:39:02,521 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 20:39:02,521 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 20:39:02,521 - root - INFO - Starting a new game.
+2025-11-19 20:46:28,092 - root - INFO - Game ended due to reaching max questions.
+2025-11-19 20:46:43,313 - root - INFO - Conversation saved to ./conversations\blackstory_20251119_204643.md
