@@ -92,12 +92,19 @@ class GameOrchestrator:
             # Model 2 asks a question
             story_situation = self.conversation.messages[0].content
             conversation_history = self._format_history()
+
+            # Force solve after 5 questions
+            force_solve_instructions = ""
+            if questions_asked >= 5:
+                force_solve_instructions = "YA HAS HECHO 5 PREGUNTAS. DEBES INTENTAR RESOLVER LA HISTORIA AHORA. USA 'RESOLVER:'."
+
             prompt = DETECTIVE_PROMPT.format(
                 story_situation=story_situation,
                 conversation_history=conversation_history,
                 max_questions=self.max_questions,
                 questions_left=self.max_questions - questions_asked,
-                score_feedback=score_feedback
+                score_feedback=score_feedback,
+                force_solve_instructions=force_solve_instructions
             )
             start_time = time.time()
             question = self.model2.generate_response(prompt)
@@ -147,35 +154,32 @@ class GameOrchestrator:
     def _resolve_game(self):
         # Final evaluation by Model 1
         last_response = self.conversation.messages[-1].content
+        final_story = ""
+        response_time = 0
+
         if "RESOLVER:" not in last_response.upper():
             logging.info("Game ended due to reaching max questions.")
-            final_prompt = "El detective ha agotado sus preguntas. Revela la historia completa."
+            final_story = f"Has agotado tus preguntas. La solución era:\n\n{self.conversation.full_solution}"
             self.conversation.result = "Derrota"
         else:
             logging.info("Detective attempts to solve.")
             detective_solution = last_response.replace("RESOLVER:", "").strip()
             
+            start_time = time.time()
             evaluation_prompt = (
                 f"El detective ha propuesto la siguiente solución: '{detective_solution}'.\n"
                 f"La verdadera historia es: '{self.conversation.full_solution}'.\n"
                 "Evalúa si la solución del detective es CORRECTA o INCORRECTA. "
                 "Responde únicamente con '🎉 ¡CORRECTO!' si es correcta, o '❌ INCORRECTO.' si es incorrecta. "
-                "Luego, explica la historia completa."
+                "Luego, en una nueva línea, revela la historia completa."
             )
+            final_story = self.model1.generate_response(evaluation_prompt)
+            response_time = time.time() - start_time
             
-            evaluation_response = self.model1.generate_response(evaluation_prompt)
-            
-            if "🎉 ¡CORRECTO!" in evaluation_response:
+            if "🎉 ¡CORRECTO!" in final_story:
                 self.conversation.result = "Victoria"
             else:
                 self.conversation.result = "Derrota"
-            
-            final_prompt = evaluation_response # Use the evaluation response directly
-
-
-        start_time = time.time()
-        final_story = self.model1.generate_response(final_prompt)
-        response_time = time.time() - start_time
 
         msg = Message("model1", self.model1.model_name, "Story Master", final_story, response_time=response_time)
         self.conversation.add_message(msg)

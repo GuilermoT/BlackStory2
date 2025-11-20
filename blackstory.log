@@ -354,3 +354,96 @@
 2025-11-19 20:39:02,521 - root - INFO - Starting a new game.
 2025-11-19 20:46:28,092 - root - INFO - Game ended due to reaching max questions.
 2025-11-19 20:46:43,313 - root - INFO - Conversation saved to ./conversations\blackstory_20251119_204643.md
+2025-11-19 20:50:36,088 - root - INFO - Starting Black Stories AI game
+2025-11-19 20:50:36,088 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 20:50:36,088 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 20:50:36,089 - root - INFO - Starting a new game.
+2025-11-19 20:55:23,747 - root - INFO - Game ended due to reaching max questions.
+2025-11-19 20:55:39,286 - root - INFO - Conversation saved to ./conversations\blackstory_20251119_205539.md
+2025-11-19 20:56:47,720 - root - INFO - Starting Black Stories AI game
+2025-11-19 20:56:47,721 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 20:56:47,721 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 20:56:47,721 - root - INFO - Starting a new game.
+2025-11-19 21:00:28,909 - root - WARNING - Game interrupted by user.
+2025-11-19 21:00:34,425 - root - INFO - Starting Black Stories AI game
+2025-11-19 21:00:34,425 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 21:00:34,425 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 21:00:34,425 - root - INFO - Starting a new game.
+2025-11-19 21:00:43,671 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-19 21:06:43,471 - root - WARNING - Game interrupted by user.
+2025-11-19 21:08:49,258 - root - INFO - Starting Black Stories AI game
+2025-11-19 21:08:49,258 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 21:08:49,258 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-19 21:08:49,259 - root - INFO - Starting a new game.
+2025-11-19 21:13:30,101 - root - WARNING - Game interrupted by user.
+2025-11-20 12:52:18,648 - root - INFO - Starting Black Stories AI game
+2025-11-20 12:52:18,665 - root - INFO - Ollama provider initialized with model: gemma3 at http://localhost:11434
+2025-11-20 12:52:18,678 - root - INFO - Ollama provider initialized with model: gemma3 at http://localhost:11434
+2025-11-20 12:52:18,679 - root - INFO - Starting a new game.
+2025-11-20 12:52:39,265 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:52:39,267 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-20 12:52:47,589 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:52:52,770 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:53:02,273 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:53:20,248 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:53:25,860 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:53:28,039 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:53:33,594 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:53:35,710 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:53:41,194 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:53:54,038 - root - WARNING - Game interrupted by user.
+2025-11-20 12:53:57,524 - root - INFO - Starting Black Stories AI game
+2025-11-20 12:53:57,540 - root - INFO - Ollama provider initialized with model: gemma3 at http://localhost:11434
+2025-11-20 12:53:57,553 - root - INFO - Ollama provider initialized with model: gemma3 at http://localhost:11434
+2025-11-20 12:53:57,554 - root - INFO - Starting a new game.
+2025-11-20 12:54:07,940 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:54:07,941 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-20 12:54:14,911 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:54:19,393 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:54:38,646 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:54:41,272 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:54:47,674 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:54:51,140 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:55:01,161 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:55:10,519 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:55:23,492 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:55:30,054 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:55:44,325 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:55:48,198 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:56:00,560 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:56:05,963 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:56:20,893 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:56:24,389 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:56:38,759 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:56:42,458 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:56:57,110 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:57:03,301 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:57:04,101 - root - INFO - Game ended due to reaching max questions.
+2025-11-20 12:57:49,840 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-11-20 12:57:49,857 - root - INFO - Conversation saved to ./conversations\blackstory_20251120_125749.md
+2025-11-20 12:58:42,890 - root - INFO - Starting Black Stories AI game
+2025-11-20 12:58:42,890 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-20 12:58:42,890 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-20 12:58:42,891 - root - INFO - Starting a new game.
+2025-11-20 13:04:30,080 - root - INFO - Game ended due to reaching max questions.
+2025-11-20 13:04:51,652 - root - INFO - Conversation saved to ./conversations\blackstory_20251120_130451.md
+2025-11-20 13:09:32,846 - root - INFO - Starting Black Stories AI game
+2025-11-20 13:09:32,846 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-20 13:09:32,846 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-20 13:09:32,847 - root - INFO - Starting a new game.
+2025-11-20 13:09:44,846 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-20 13:10:32,690 - root - INFO - Detective attempts to solve.
+2025-11-20 13:10:52,957 - root - INFO - Conversation saved to ./conversations\blackstory_20251120_131052.md
+2025-11-20 13:12:20,492 - root - INFO - Starting Black Stories AI game
+2025-11-20 13:12:20,492 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-20 13:12:20,493 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-20 13:12:20,493 - root - INFO - Starting a new game.
+2025-11-20 13:12:35,142 - root - WARNING - Story Master did not follow the expected format. Using full response as situation.
+2025-11-20 13:19:26,960 - root - INFO - Detective attempts to solve.
+2025-11-20 13:19:41,132 - root - INFO - Conversation saved to ./conversations\blackstory_20251120_131941.md
+2025-11-20 13:24:10,012 - root - INFO - Starting Black Stories AI game
+2025-11-20 13:24:10,012 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-20 13:24:10,012 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-20 13:24:10,013 - root - INFO - Starting a new game.
+2025-11-20 13:29:11,877 - root - INFO - Game ended due to reaching max questions.
+2025-11-20 13:29:11,880 - root - INFO - Conversation saved to ./conversations\blackstory_20251120_132911.md
