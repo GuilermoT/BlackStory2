@@ -447,3 +447,9 @@
 2025-11-20 13:24:10,013 - root - INFO - Starting a new game.
 2025-11-20 13:29:11,877 - root - INFO - Game ended due to reaching max questions.
 2025-11-20 13:29:11,880 - root - INFO - Conversation saved to ./conversations\blackstory_20251120_132911.md
+2025-11-20 13:36:20,268 - root - INFO - Starting Black Stories AI game
+2025-11-20 13:36:20,269 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-20 13:36:20,269 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-11-20 13:36:20,269 - root - INFO - Starting a new game.
+2025-11-20 13:42:26,987 - root - INFO - Detective attempts to solve.
+2025-11-20 13:42:33,487 - root - INFO - Conversation saved to ./conversations\blackstory_20251120_134233.md

@@ -56,7 +56,7 @@ ESTRATEGIA DE CADENA DE PENSAMIENTO (Chain-of-Thought):
 1.  **Análisis**: ¿Qué sé con certeza según la situación y las respuestas anteriores?
 2.  **Hipótesis**: Basado en el análisis, ¿cuál es la teoría más probable en este momento?
 3.  **Pregunta Crítica**: ¿Cuál es la pregunta más eficiente que puedo hacer para confirmar o refutar mi hipótesis principal? La pregunta debe ser muy específica.
-4.  **Acción**: Formula y haz la pregunta.
+4.  **Acción**: Formula y haz la pregunta a no ser que tengas una hipótesis que pueda ser correcta, en ese caso resuelve.
 
 Ejemplo de tu proceso mental (NO lo muestres en tu respuesta):
 *Análisis: El hombre está muerto en un campo, pero no hay sangre. La última respuesta fue "NO" a "¿Murió por un animal?".*
