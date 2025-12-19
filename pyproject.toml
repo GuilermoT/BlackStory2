@@ -9,6 +9,7 @@ dependencies = [
     "rich>=13.0.0",
     "python-dotenv>=1.0.0",
     "click>=8.1.0",
+    "customtkinter>=5.2.2",
 ]
 
 [project.scripts]
