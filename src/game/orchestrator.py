@@ -79,16 +79,47 @@ class GameOrchestrator:
         if action == "force_end":
             self._stop_event.set()
             
-        elif action == "hint" or action == "warn":
+        elif action == "hint":
+            text = data.get("text", "") if data else ""
+            
+            if not text:
+                # Auto-generate hint using AI
+                logging.info("Generating AI hint...")
+                conversation_history = self._format_history()
+                
+                hint_prompt = (
+                    f"Eres el maestro de una Black Story. El detective está intentando resolver el misterio.\n\n"
+                    f"SOLUCIÓN COMPLETA (secreta): {self.conversation.full_solution}\n\n"
+                    f"HISTORIAL DE PREGUNTAS Y RESPUESTAS:\n{conversation_history}\n\n"
+                    f"TAREA: Genera UNA PISTA ÚTIL que ayude al detective a avanzar sin revelar directamente la solución. "
+                    f"La pista debe ser sutil pero orientadora, basada en lo que el detective ya ha preguntado. "
+                    f"Máximo 2 líneas. Responde SOLO con la pista, sin explicaciones adicionales."
+                )
+                
+                try:
+                    import time
+                    start_time = time.time()
+                    ai_hint = self.model1.generate_response(hint_prompt)
+                    response_time = time.time() - start_time
+                    text = ai_hint.strip()
+                    logging.info(f"AI hint generated: {text[:100]}...")
+                except Exception as e:
+                    logging.error(f"Error generating AI hint: {e}")
+                    text = "No se pudo generar una pista automática."
+            
+            # Crear mensaje de pista
+            formatted_content = f"💡 Moderador (Pista): {text}"
+            msg = Message("ai_hint", self.model1.model_name, "Moderator", formatted_content)
+            self.conversation.add_message(msg)
+            
+            # Notificar para que salga en la UI
+            self._notify(EventType.RESPUESTA_MAESTRO, payload={"message": msg})
+            
+        elif action == "warn":
             text = data.get("text", "")
             if text:
-                # Crear mensaje de sistema/moderador
-                role_title = "Moderador (Pista)" if action == "hint" else "Moderador (Advertencia)"
-                emoji = "💡" if action == "hint" else "⚠️"
-                formatted_content = f"{emoji} {role_title}: {text}"
-                
-                # Lo añadimos a la conversación como un mensaje especial del Story Master para que quede registro
-                # o como un mensaje de sistema. Usaremos Story Master para simplificar, pero marcándolo.
+                # Crear mensaje de advertencia
+                formatted_content = f"⚠️ Moderador (Advertencia): {text}"
                 msg = Message("human_mod", "Human", "Moderator", formatted_content)
                 self.conversation.add_message(msg)
                 

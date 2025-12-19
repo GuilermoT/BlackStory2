@@ -254,13 +254,20 @@ class GameFrame(ctk.CTkFrame, GameObserver):
 
     def _intervene(self, action):
         data = {}
-        if action == "hint" or action == "warn":
-            title = "Escribir Pista" if action == "hint" else "Escribir Advertencia"
+        if action == "hint":
+            # Auto-generate hint via AI instead of manual input
+            self.orchestrator.process_intervention("hint", data)
+        elif action == "warn":
+            # Manual warning still uses input dialog
+            title = "Escribir Advertencia"
             dialog = ctk.CTkInputDialog(text=f"Mensaje:", title=title)
             text = dialog.get_input()
             if not text: return
             data["text"] = text
-        self.orchestrator.process_intervention(action, data)
+            self.orchestrator.process_intervention(action, data)
+        else:
+            # Other actions (force_end, etc.)
+            self.orchestrator.process_intervention(action, data)
 
     def on_event(self, event: GameEvent):
         self.event_queue.put(event)
