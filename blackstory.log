@@ -1886,3 +1886,237 @@ SOLUCIÓN: La mujer era una artista de escapismo que estaba ensayando un nuevo tr
 2025-12-19 19:04:08,631 - root - WARNING - Game interrupted by user.
 2025-12-19 19:05:54,967 - root - INFO - Starting Black Stories AI game
 2025-12-19 19:06:24,650 - root - WARNING - Game interrupted by user.
+2025-12-19 19:13:39,714 - root - INFO - Starting Black Stories AI game
+2025-12-19 19:14:14,987 - root - INFO - Ollama provider initialized with model: gemma3:12b at http://localhost:11434
+2025-12-19 19:14:15,012 - root - INFO - Ollama provider initialized with model: gemma3:12b at http://localhost:11434
+2025-12-19 19:14:15,166 - root - INFO - Starting a new game.
+2025-12-19 19:14:15,169 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-12-19 19:14:15,174 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000237A19C4980>
+2025-12-19 19:14:15,174 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-12-19 19:14:15,175 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-12-19 19:14:15,175 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-12-19 19:14:15,176 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-12-19 19:14:15,176 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-12-19 19:15:07,582 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Fri, 19 Dec 2025 18:15:07 GMT'), (b'Content-Length', b'873')])
+2025-12-19 19:15:07,584 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-19 19:15:07,586 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-12-19 19:15:07,586 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-12-19 19:15:07,587 - httpcore.http11 - DEBUG - response_closed.started
+2025-12-19 19:15:07,587 - httpcore.http11 - DEBUG - response_closed.complete
+2025-12-19 19:15:07,588 - root - INFO - Raw story response length: 551
+2025-12-19 19:15:07,589 - root - DEBUG - Raw story response: SITUACIÓN: Una niña encuentra un caracol gigante de caparazón de oro puro en su jardín. El caracol no se mueve y parece estar durmiendo.
+
+SOLUCIÓN: La niña es una niña prodigio en química y, por un experimento, creó una aleación de oro ultra-ligera y la moldeó para crear un caracol falso. Para simular el sueño, incorporó un mecanismo de liberación de feromonas que imita el olor del sueño profundo en caracoles reales. Lo colocó en el jardín para que su abuelo, un coleccionista obsesionado con rar...
+2025-12-19 19:15:07,589 - root - INFO - Extracted using SITUACIÓN/SOLUCIÓN format
+2025-12-19 19:15:07,589 - root - INFO - Final solution length: 403
+2025-12-19 19:15:07,590 - root - DEBUG - Final solution: La niña es una niña prodigio en química y, por un experimento, creó una aleación de oro ultra-ligera y la moldeó para crear un caracol falso. Para simular el sueño, incorporó un mecanismo de liberació...
+2025-12-19 19:15:13,018 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-12-19 19:15:13,020 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000237A19D8690>
+2025-12-19 19:15:13,020 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-12-19 19:15:13,021 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-12-19 19:15:13,021 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-12-19 19:15:13,021 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-12-19 19:15:13,022 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-12-19 19:15:29,228 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Fri, 19 Dec 2025 18:15:29 GMT'), (b'Content-Length', b'372')])
+2025-12-19 19:15:29,229 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-19 19:15:29,229 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-12-19 19:15:29,230 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-12-19 19:15:29,230 - httpcore.http11 - DEBUG - response_closed.started
+2025-12-19 19:15:29,230 - httpcore.http11 - DEBUG - response_closed.complete
+2025-12-19 19:16:28,636 - root - INFO - Ollama provider initialized with model: gemma3:12b at http://localhost:11434
+2025-12-19 19:16:28,652 - root - INFO - Ollama provider initialized with model: gemma3:12b at http://localhost:11434
+2025-12-19 19:16:28,720 - root - INFO - Starting a new game.
+2025-12-19 19:16:28,722 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-12-19 19:16:28,722 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000237A1A1CB90>
+2025-12-19 19:16:28,723 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-12-19 19:16:28,723 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-12-19 19:16:28,723 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-12-19 19:16:28,723 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-12-19 19:16:28,724 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-12-19 19:17:18,971 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Fri, 19 Dec 2025 18:17:18 GMT'), (b'Content-Length', b'1051')])
+2025-12-19 19:17:18,972 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-19 19:17:18,972 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-12-19 19:17:18,972 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-12-19 19:17:18,972 - httpcore.http11 - DEBUG - response_closed.started
+2025-12-19 19:17:18,973 - httpcore.http11 - DEBUG - response_closed.complete
+2025-12-19 19:17:18,973 - root - INFO - Raw story response length: 734
+2025-12-19 19:17:18,973 - root - DEBUG - Raw story response: SITUACIÓN: Una anciana es encontrada sentada en el banco de un parque, tejiendo un suéter. Lleva puesto un chal con un motivo extraño: parecen estrellas fugaces en espiral. A su lado, una nota escrita a mano dice: "El tiempo se desborda."
+
+SOLUCIÓN: La anciana era una científica que trabajaba en un dispositivo experimental de manipulación temporal. El chal representa los patrones que observaba al acelerar y desacelerar el tiempo.  Alguien saboteó el dispositivo, creando una distorsión temporal l...
+2025-12-19 19:17:18,973 - root - INFO - Extracted using SITUACIÓN/SOLUCIÓN format
+2025-12-19 19:17:18,974 - root - INFO - Final solution length: 484
+2025-12-19 19:17:18,974 - root - DEBUG - Final solution: La anciana era una científica que trabajaba en un dispositivo experimental de manipulación temporal. El chal representa los patrones que observaba al acelerar y desacelerar el tiempo.  Alguien saboteó...
+2025-12-19 19:17:22,190 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-12-19 19:17:22,191 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000237A19D7490>
+2025-12-19 19:17:22,191 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-12-19 19:17:22,192 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-12-19 19:17:22,192 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-12-19 19:17:22,192 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-12-19 19:17:22,192 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-12-19 19:17:38,457 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Fri, 19 Dec 2025 18:17:38 GMT'), (b'Content-Length', b'367')])
+2025-12-19 19:17:38,458 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-19 19:17:38,458 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-12-19 19:17:38,459 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-12-19 19:17:38,459 - httpcore.http11 - DEBUG - response_closed.started
+2025-12-19 19:17:38,459 - httpcore.http11 - DEBUG - response_closed.complete
+2025-12-19 19:17:42,580 - httpcore.connection - DEBUG - close.started
+2025-12-19 19:17:42,581 - httpcore.connection - DEBUG - close.complete
+2025-12-19 19:17:42,581 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-12-19 19:17:42,581 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000237A1A20C30>
+2025-12-19 19:17:42,582 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-12-19 19:17:42,582 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-12-19 19:17:42,582 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-12-19 19:17:42,582 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-12-19 19:17:42,582 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-12-19 19:17:50,766 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Fri, 19 Dec 2025 18:17:50 GMT'), (b'Content-Length', b'322')])
+2025-12-19 19:17:50,767 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-19 19:17:50,767 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-12-19 19:17:50,768 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-12-19 19:17:50,768 - httpcore.http11 - DEBUG - response_closed.started
+2025-12-19 19:17:50,768 - httpcore.http11 - DEBUG - response_closed.complete
+2025-12-19 19:17:53,580 - httpcore.connection - DEBUG - close.started
+2025-12-19 19:17:53,580 - httpcore.connection - DEBUG - close.complete
+2025-12-19 19:17:53,581 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-12-19 19:17:53,582 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002379F3E71D0>
+2025-12-19 19:17:53,583 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-12-19 19:17:53,583 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-12-19 19:17:53,583 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-12-19 19:17:53,583 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-12-19 19:17:53,584 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-12-19 19:18:47,165 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Fri, 19 Dec 2025 18:18:47 GMT'), (b'Content-Length', b'999')])
+2025-12-19 19:18:47,166 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-19 19:18:47,166 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-12-19 19:18:47,166 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-12-19 19:18:47,166 - httpcore.http11 - DEBUG - response_closed.started
+2025-12-19 19:18:47,167 - httpcore.http11 - DEBUG - response_closed.complete
+2025-12-19 19:18:51,886 - httpcore.connection - DEBUG - close.started
+2025-12-19 19:18:51,886 - httpcore.connection - DEBUG - close.complete
+2025-12-19 19:18:51,887 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-12-19 19:18:51,888 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002379F466BE0>
+2025-12-19 19:18:51,889 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-12-19 19:18:51,889 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-12-19 19:18:51,889 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-12-19 19:18:51,889 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-12-19 19:18:51,890 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-12-19 19:19:03,188 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Fri, 19 Dec 2025 18:19:03 GMT'), (b'Content-Length', b'323')])
+2025-12-19 19:19:03,189 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-19 19:19:03,192 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-12-19 19:19:03,193 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-12-19 19:19:03,193 - httpcore.http11 - DEBUG - response_closed.started
+2025-12-19 19:19:03,194 - httpcore.http11 - DEBUG - response_closed.complete
+2025-12-19 19:19:11,237 - root - INFO - Intervención recibida: hint
+2025-12-19 19:19:11,237 - root - INFO - Generating AI hint...
+2025-12-19 19:19:11,238 - httpcore.connection - DEBUG - close.started
+2025-12-19 19:19:11,238 - httpcore.connection - DEBUG - close.complete
+2025-12-19 19:19:11,238 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-12-19 19:19:11,239 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000237A1A34050>
+2025-12-19 19:19:11,239 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-12-19 19:19:11,239 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-12-19 19:19:11,239 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-12-19 19:19:11,240 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-12-19 19:19:11,240 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-12-19 19:19:25,356 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Fri, 19 Dec 2025 18:19:25 GMT'), (b'Content-Length', b'406')])
+2025-12-19 19:19:25,356 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-19 19:19:25,356 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-12-19 19:19:25,357 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-12-19 19:19:25,357 - httpcore.http11 - DEBUG - response_closed.started
+2025-12-19 19:19:25,357 - httpcore.http11 - DEBUG - response_closed.complete
+2025-12-19 19:19:25,358 - root - INFO - AI hint generated: Observe detenidamente los patrones en el chal. No son meramente decorativos; parecen representar alg...
+2025-12-19 19:19:30,498 - httpcore.connection - DEBUG - close.started
+2025-12-19 19:19:30,498 - httpcore.connection - DEBUG - close.complete
+2025-12-19 19:19:30,499 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-12-19 19:19:30,500 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002379F42B850>
+2025-12-19 19:19:30,500 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-12-19 19:19:30,501 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-12-19 19:19:30,501 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-12-19 19:19:30,501 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-12-19 19:19:30,502 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-12-19 19:20:37,804 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Fri, 19 Dec 2025 18:20:37 GMT'), (b'Content-Length', b'1178')])
+2025-12-19 19:20:37,805 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-12-19 19:20:37,805 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-12-19 19:20:37,805 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-12-19 19:20:37,806 - httpcore.http11 - DEBUG - response_closed.started
+2025-12-19 19:20:37,806 - httpcore.http11 - DEBUG - response_closed.complete
+2025-12-19 19:21:14,679 - root - INFO - Gemini provider initialized with model: gemini-2.5-pro
+2025-12-19 19:21:14,680 - root - INFO - Gemini provider initialized with model: gemini-2.5-pro
+2025-12-19 19:21:14,741 - root - INFO - Starting a new game.
+2025-12-19 19:21:15,047 - root - ERROR - Error generating response from Gemini: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.5-pro
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.5-pro
+Please retry in 44.852922366s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 44
+}
+]
+2025-12-19 19:21:15,047 - root - INFO - Raw story response length: 47
+2025-12-19 19:21:15,048 - root - DEBUG - Raw story response: Error: Could not get a response from the model....
+2025-12-19 19:21:15,048 - root - INFO - Used fallback extraction. Found 1 situation lines, 0 solution lines
+2025-12-19 19:21:15,048 - root - INFO - Final solution length: 0
+2025-12-19 19:21:15,048 - root - DEBUG - Final solution: ...
+2025-12-19 19:21:52,933 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-12-19 19:21:52,933 - root - INFO - Gemini provider initialized with model: gemini-2.5-flash
+2025-12-19 19:21:53,011 - root - INFO - Starting a new game.
+2025-12-19 19:22:01,930 - root - INFO - Raw story response length: 425
+2025-12-19 19:22:01,931 - root - DEBUG - Raw story response: SITUACIÓN: En una cabaña remota, un hombre yace muerto en el suelo. La única ventana está rota hacia afuera, y a su lado hay una pecera volcada y vacía.
+
+SOLUCIÓN: El hombre era un ladrón que intentaba robar valiosos peces exóticos de la cabaña. Había llenado la pecera y, al intentar salir por la ventana para escapar, resbaló. Al caer, se golpeó la cabeza fatalmente con el cristal roto de la ventana, y la pecera se vació....
+2025-12-19 19:22:01,931 - root - INFO - Extracted using SITUACIÓN/SOLUCIÓN format
+2025-12-19 19:22:01,931 - root - INFO - Final solution length: 261
+2025-12-19 19:22:01,931 - root - DEBUG - Final solution: El hombre era un ladrón que intentaba robar valiosos peces exóticos de la cabaña. Había llenado la pecera y, al intentar salir por la ventana para escapar, resbaló. Al caer, se golpeó la cabeza fatalm...
+2025-12-19 19:31:37,077 - root - INFO - Intervención recibida: hint
+2025-12-19 19:31:37,077 - root - INFO - Generating AI hint...
+2025-12-19 19:31:50,005 - root - INFO - AI hint generated: La posición del hombre en relación a la ventana al momento del resbalón es crucial....
+2025-12-19 19:32:51,147 - root - INFO - Detective attempts to solve.
